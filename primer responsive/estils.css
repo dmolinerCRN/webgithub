@@ -1,0 +1,59 @@
+body{
+  background-color: Khaki;
+}
+.cuadres{
+  width: 150px;
+  height:150px;
+  margin: 20px;
+  background-color: pink;
+}
+
+#uno{
+  background-color: indianred;
+}
+#dos{
+  background-color: coral;
+}
+#tres{
+  background-color: green;
+}
+#cuatro{
+  background-color: DarkOliveGreen;
+}
+
+@media screen and (max-width: 820px) {
+  body{
+    background-color: NavajoWhite;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  body{
+    background-color: PapayaWhip;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  div#uno {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  div#cuatro {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  div#dos {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  div#tres {
+    height: 50px;
+    width: 50px;
+  }
+}
